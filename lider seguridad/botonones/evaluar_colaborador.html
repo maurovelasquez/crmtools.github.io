@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../imagenes/crm.png">
+    <title>Validar Indicadores</title>
+    <style>
+        #body{
+        border: none;
+        padding: 30px 3px 3px 3px;}
+ div.oneone{ 
+     margin: auto;
+     float: right;
+     right: 50%;
+}
+ div.one{ 
+     margin: none;
+     width: 100%;
+     height: 100px;
+     background-color: aqua;
+ }
+ .one .profile-picture {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 200px;
+     height: 230px;
+     border-radius: 50%;
+     overflow: hidden;
+     background-color: aqua;
+ }
+ .one .profile-picture .img {
+     width: 100%;
+     height: 100%;   
+ }
+ div.two {
+     margin: 0px;
+     float: left;
+     margin-top: none;
+     width: 100px;
+     height: 800px;
+     background-color: aqua;
+ }
+ div.three{
+     margin:auto;
+     margin-top: 150px;
+ }
+ div.four{
+     margin:auto;
+     margin-top: 10px;
+ }
+ div.five{
+     margin: auto;
+     margin-top: 10px;}
+ div.six{
+     margin:auto;
+     margin-top: 10px;}
+ div.general{
+     width: calc(100% - 100px);
+     height: 800px;
+     margin: 0 0 0 100px;
+     background-color: white;
+ }
+ div.informacion-perfil{
+    position: absolute;
+     width: 200px;
+     height: 30px;
+     left: 180px;
+     text-align: center;
+ }
+ a:hover{ 
+     color: azure;
+}
+a:active{ 
+    color: rgb(253, 76, 32);
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+img.uno{ width: 200px; height: 230px;}
+table{
+    float: right;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+div.logo{ 
+    float: right;
+    width: 100px;
+    height: 90px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+
+div.botom1{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: black;
+    width: 200px; 
+    height: 200px; 
+    margin: 0px auto;
+    font-weight:bold;
+    font-size: 20px;
+    border-bottom: 7px solid black;
+    position: absolute;
+    top: 340px;
+    left: 1100px;
+    border-radius: 20px;
+    background: linear-gradient(50deg, aqua, rgb(94, 255, 0))
+}
+div.botom2{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: black;
+    width: 200px; 
+    height: 200px; 
+    margin: 0px auto;
+    font-weight:bold;
+    font-size: 20px;
+    border-bottom: 7px solid black;
+    position: absolute;
+    top: 340px;
+    left: 700px;
+    border-radius: 20px;
+    background: linear-gradient(50deg, aqua, rgb(94, 255, 0))
+}
+.botom1:hover{
+    transform: translatey(15px);
+    box-shadow: 0 30px 5px -15px  rgba(255, 255, 255, 0.4);
+
+}
+.botom2:hover{
+    transform: translatey(15px);
+    box-shadow: 0 30px 5px -15px  rgba(255, 255, 255, 0.4);
+
+}
+.img:hover{
+    transform: translate(15px);
+    box-shadow: 0 30px 5px -15px none
+}
+
+
+    </style>
+</head>
+<body bgcolor="#CECECE">
+    <div class="one">
+        <div class="informacion-perfil">
+            <p>Jhon Torres <br> Lider Seguridad Fisica <br> <br> <a href="../../Login.html">Cerrar Sesion</a></p>
+        </div>
+        <div class="profile-picture">
+            <img class="uno"src="../imagenes/maurojoven.png">
+        </div>
+        <div class="oneone">
+            <table>
+                <td>
+                 <a href="./configuracion.html"><img src="../imagenes/configuracion.png" width="80px" height="70px">Configuracion</a> 
+                </td>
+            </table>
+            <div class="logo">
+                <img src="../imagenes/crm.png" width="100px" height="100px">
+            </div>
+             
+        </div>
+    </div>
+    <div class="two">
+        <div class="three"> 
+           <center><a href="./gestionar_informacion.html"><img class="img" src="../imagenes/word.png" width="100px" height="80px">Gestionar Informacion</a> </center>
+        </div>
+        <div class="four">
+            <center><a href="./generar_informe.html"><img class="img" src="../imagenes/informe2.png" width="100px" height="80px">Generar informe</a> </center>
+        </div>
+        <div class="five"> 
+            <center><a href="./validar_indicadores.html"><img class="img" src="../imagenes/estadisticas.png" width="100px" height="80px">Validar Indicadores</a> </center>
+        </div>
+        <div class="six">
+            <center><a href="./responder_solucitud.html"><img class="img" src="../imagenes/mensaje.png" width="100px" height="80px">Responder Solicitud</a> </center>
+            </div>
+    </div>
+    <div class="general" >
+        <img src="../imagenes/seguridad.jpg" width="100%" height="100%">
+        <div class="botom1">
+            <center><a href="../botonones/cumplimiento_tiempo_entrega.html"><img src="../imagenes/tiempo.png" width="150px" height="150px">Cumplimiento tiempo de entrega</a> </center>
+        </div>
+        <div class="botom2">
+            <center><a href="../botonones/cumplimiento_ind_.html"><img src="../imagenes/cumplimiento.png" width="150px" height="150px">Cumplimiento Indicadores CCTV</a> </center>
+        </div>            
+    </div>
+</body>
+</html>
